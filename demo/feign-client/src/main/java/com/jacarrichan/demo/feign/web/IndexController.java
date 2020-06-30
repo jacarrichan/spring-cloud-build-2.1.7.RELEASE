@@ -1,5 +1,7 @@
-package com.jacarrichan.demo.feign;
+package com.jacarrichan.demo.feign.web;
 
+import com.jacarrichan.demo.feign.client.HelloFeignClient;
+import com.jacarrichan.demo.feign.client.UserFeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

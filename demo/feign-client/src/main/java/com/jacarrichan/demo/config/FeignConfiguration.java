@@ -1,4 +1,4 @@
-package com.jacarrichan.demo;
+package com.jacarrichan.demo.config;
 
 import feign.Logger;
 import org.springframework.context.annotation.Bean;
