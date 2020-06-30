@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: dev
+  mvc:
+    servlet:
+      load-on-startup: 0
+
+ribbon:
+  eager-load:
+    enabled: true
+    clients: service-helloworld,service-user
+logging:
+  level:
+      root: info
+      com.jacarrichan.demo.feign: debug
