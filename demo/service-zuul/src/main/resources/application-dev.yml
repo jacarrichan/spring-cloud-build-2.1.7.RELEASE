@@ -1,7 +1,7 @@
 eureka:
     client:
-        serviceUrl:
-            defaultZone: http://localhost:8761/eureka/
+    serviceUrl:
+        defaultZone: http://localhost:8761/eureka/
 server:
     port: 8006
 spring:
@@ -15,3 +15,6 @@ zuul:
         feign:
             path: /api-feign/**
             serviceId: service-feign
+        user:
+            path: /api-user/**
+            serviceId: service-user
